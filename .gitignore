@@ -1,0 +1,7 @@
+.vs
+packages
+AspNetXml/bin/
+AspNetXml/obj/
+UnitTestProject/bin/
+UnitTestProject/obj/
+

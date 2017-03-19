@@ -1,0 +1,249 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Category Name="Lamps" Alias="UIRESOURCE:Lamps">
+  <Property Name="Visible" Type="Boolean" Value="True" />
+  <Category Name="LPCeiling" Alias="UIRESOURCE:LPCeiling">
+    <Category Name="LP_Snowball_parent" Alias="UIRESOURCE:LP_Snowball">
+      <Property Name="LibraryImage" Type="String" Value="/libraries/sismodules/image/LP_snowball.png" />
+      <Property Name="Type" Type="String" Value="LampParent" />
+      <Property Name="ULClass" Type="String" Value="LampParent" />
+      <Category Name="LP_Snowball_Sizes" Alias="UIRESOURCE:LP_Lamp_Sizes">
+        <Property Name="Type" Type="String" Value="LampSizes" />
+        <Property Name="ULClass" Type="String" Value="LampSizes" />
+        <PartItem Name="LP_Snowball_s" Alias="UIRESOURCE:LP_Snowball_s" >
+          <Property Name="SizeSelection" Type="string" Value="s" />
+          <Property Name="MultiExtends" Type="Array">
+            <Value>SizeOption</Value>
+          </Property>
+        </PartItem>
+        <PartItem Name="LP_Snowball_m" Alias="UIRESOURCE:LP_Snowball_m" >
+          <Property Name="SizeSelection" Type="string" Value="m" />
+          <Property Name="MultiExtends" Type="Array">
+            <Value>SizeOption</Value>
+          </Property>
+        </PartItem>
+        <PartItem Name="LP_Snowball_l" Alias="UIRESOURCE:LP_Snowball_l" >
+          <Property Name="SizeSelection" Type="string" Value="m" />
+          <Property Name="MultiExtends" Type="Array">
+            <Value>SizeOption</Value>
+          </Property>
+        </PartItem>
+      </Category>
+      <Category Name="LP_Snowball_Colours" Alias="UIRESOURCE:LP_Lamp_Colours">
+        <Property Name="Type" Type="String" Value="LampColour" />
+        <Property Name="ULClass" Type="String" Value="lib-icons LampColour" />
+        <PartItem Name="LP_Snowball">
+          <Property Name="MultiExtends" Type="Array">
+            <Value>Generic_Part</Value>
+            <Value>CeilingLamp</Value>
+          </Property>
+          <Property Name="SizeProperty" Type="string" Value="s" />
+          <Property Name="Alias" Type="String" Value="UIRESOURCE:Snowball" />
+          <Property Name="Size" Type="Size3" Value="40.1 70.9 40.1" />
+          <Property Name="LibraryImage" Type="String" Value="/libraries/sismodules/image/LP_snowball.png" />
+          <Property Name="Template" Type="String" Value="LP_Snowball" />
+          <SlotGroup Name="MaterialSlots">
+            <Property Name="Type" Type="String" Value="Undefined" />
+            <Slot Name="metal_chromeMAT">
+              <Property Name="MaterialName" Type="String" Value="metal_chromeMAT" />
+            </Slot>
+            <Slot Name="snowball_plastic_whiteMAT">
+              <Property Name="MaterialName" Type="String" Value="snowball_plastic_whiteMAT" />
+            </Slot>
+          </SlotGroup>
+        </PartItem>
+        <PartItem Name="LP_Snowball_1">
+          <Property Name="MultiExtends" Type="Array">
+            <Value>Generic_Part</Value>
+            <Value>CeilingLamp</Value>
+          </Property>
+          <Property Name="SizeProperty" Type="string" Value="s" />
+          <Property Name="Alias" Type="String" Value="UIRESOURCE:Snowball" />
+          <Property Name="Size" Type="Size3" Value="40.1 70.9 40.1" />
+          <Property Name="LibraryImage" Type="String" Value="/libraries/sismodules/image/LP_snowball.png" />
+          <Property Name="Template" Type="String" Value="LP_Snowball" />
+          <SlotGroup Name="MaterialSlots">
+            <Property Name="Type" Type="String" Value="Undefined" />
+            <Slot Name="metal_chromeMAT">
+              <Property Name="MaterialName" Type="String" Value="metal_chromeMAT" />
+            </Slot>
+            <Slot Name="snowball_plastic_whiteMAT">
+              <Property Name="MaterialName" Type="String" Value="snowball_plastic_whiteMAT" />
+            </Slot>
+          </SlotGroup>
+        </PartItem>
+        <PartItem Name="LP_Snowball_2">
+          <Property Name="MultiExtends" Type="Array">
+            <Value>Generic_Part</Value>
+            <Value>CeilingLamp</Value>
+          </Property>
+          <Property Name="SizeProperty" Type="string" Value="s" />
+          <Property Name="Alias" Type="String" Value="UIRESOURCE:Snowball" />
+          <Property Name="Size" Type="Size3" Value="40.1 70.9 40.1" />
+          <Property Name="LibraryImage" Type="String" Value="/libraries/sismodules/image/LP_snowball.png" />
+          <Property Name="Template" Type="String" Value="LP_Snowball" />
+          <SlotGroup Name="MaterialSlots">
+            <Property Name="Type" Type="String" Value="Undefined" />
+            <Slot Name="metal_chromeMAT">
+              <Property Name="MaterialName" Type="String" Value="metal_chromeMAT" />
+            </Slot>
+            <Slot Name="snowball_plastic_whiteMAT">
+              <Property Name="MaterialName" Type="String" Value="snowball_plastic_whiteMAT" />
+            </Slot>
+          </SlotGroup>
+        </PartItem>
+        <PartItem Name="LP_Snowball_2m">
+          <Property Name="MultiExtends" Type="Array">
+            <Value>Generic_Part</Value>
+            <Value>CeilingLamp</Value>
+          </Property>
+          <Property Name="SizeProperty" Type="string" Value="m" />
+          <Property Name="Alias" Type="String" Value="UIRESOURCE:Snowball" />
+          <Property Name="Size" Type="Size3" Value="40.1 70.9 40.1" />
+          <Property Name="LibraryImage" Type="String" Value="/libraries/sismodules/image/LP_snowball.png" />
+          <Property Name="Template" Type="String" Value="LP_Snowball" />
+          <SlotGroup Name="MaterialSlots">
+            <Property Name="Type" Type="String" Value="Undefined" />
+            <Slot Name="metal_chromeMAT">
+              <Property Name="MaterialName" Type="String" Value="metal_chromeMAT" />
+            </Slot>
+            <Slot Name="snowball_plastic_whiteMAT">
+              <Property Name="MaterialName" Type="String" Value="snowball_plastic_whiteMAT" />
+            </Slot>
+          </SlotGroup>
+        </PartItem>
+        <PartItem Name="LP_Snowball_2l">
+          <Property Name="MultiExtends" Type="Array">
+            <Value>Generic_Part</Value>
+            <Value>CeilingLamp</Value>
+          </Property>
+          <Property Name="SizeProperty" Type="string" Value="l" />
+          <Property Name="Alias" Type="String" Value="UIRESOURCE:Snowball" />
+          <Property Name="Size" Type="Size3" Value="40.1 70.9 40.1" />
+          <Property Name="LibraryImage" Type="String" Value="/libraries/sismodules/image/LP_snowball.png" />
+          <Property Name="Template" Type="String" Value="LP_Snowball" />
+          <SlotGroup Name="MaterialSlots">
+            <Property Name="Type" Type="String" Value="Undefined" />
+            <Slot Name="metal_chromeMAT">
+              <Property Name="MaterialName" Type="String" Value="metal_chromeMAT" />
+            </Slot>
+            <Slot Name="snowball_plastic_whiteMAT">
+              <Property Name="MaterialName" Type="String" Value="snowball_plastic_whiteMAT" />
+            </Slot>
+          </SlotGroup>
+        </PartItem>
+      </Category>
+    </Category>
+    <Category Name="LP_Snowball2_parent" Alias="UIRESOURCE:LP_Snowball">
+      <Property Name="LibraryImage" Type="String" Value="/libraries/sismodules/image/LP_snowball.png" />
+      <Property Name="Type" Type="String" Value="LampParent" />
+      <Property Name="ULClass" Type="String" Value="LampParent" />
+      <Category Name="LP_Snowball2_Sizes" Alias="UIRESOURCE:LP_Lamp_Sizes">
+        <Property Name="Type" Type="String" Value="LampSizes" />
+        <PartItem Name="LP_Snowball2">
+          <Property Name="MultiExtends" Type="Array">
+            <Value>Generic_Part</Value>
+            <Value>CeilingLamp</Value>
+          </Property>
+          <Property Name="Alias" Type="String" Value="UIRESOURCE:Snowball" />
+          <Property Name="Size" Type="Size3" Value="40.1 70.9 40.1" />
+          <Property Name="LibraryImage" Type="String" Value="/libraries/sismodules/image/LP_snowball.png" />
+          <Property Name="Template" Type="String" Value="LP_Snowball" />
+          <SlotGroup Name="MaterialSlots">
+            <Property Name="Type" Type="String" Value="Undefined" />
+            <Slot Name="metal_chromeMAT">
+              <Property Name="MaterialName" Type="String" Value="metal_chromeMAT" />
+            </Slot>
+            <Slot Name="snowball_plastic_whiteMAT">
+              <Property Name="MaterialName" Type="String" Value="snowball_plastic_whiteMAT" />
+            </Slot>
+          </SlotGroup>
+        </PartItem>
+        <PartItem Name="LP_Snowball2_1">
+          <Property Name="MultiExtends" Type="Array">
+            <Value>Generic_Part</Value>
+            <Value>CeilingLamp</Value>
+          </Property>
+          <Property Name="Alias" Type="String" Value="UIRESOURCE:Snowball" />
+          <Property Name="Size" Type="Size3" Value="40.1 70.9 40.1" />
+          <Property Name="LibraryImage" Type="String" Value="/libraries/sismodules/image/LP_snowball.png" />
+          <Property Name="Template" Type="String" Value="LP_Snowball" />
+          <SlotGroup Name="MaterialSlots">
+            <Property Name="Type" Type="String" Value="Undefined" />
+            <Slot Name="metal_chromeMAT">
+              <Property Name="MaterialName" Type="String" Value="metal_chromeMAT" />
+            </Slot>
+            <Slot Name="snowball_plastic_whiteMAT">
+              <Property Name="MaterialName" Type="String" Value="snowball_plastic_whiteMAT" />
+            </Slot>
+          </SlotGroup>
+        </PartItem>
+      </Category>
+    </Category>
+    <Category Name="LP_Snowball3_parent" Alias="UIRESOURCE:LP_Snowball">
+      <Property Name="LibraryImage" Type="String" Value="/libraries/sismodules/image/LP_snowball.png" />
+      <Property Name="Type" Type="String" Value="LampParent" />
+      <Property Name="ULClass" Type="String" Value="LampParent" />
+      <Category Name="LP_Snowball3_Colours" Alias="UIRESOURCE:LP_Lamp_Colours">
+        <Property Name="Type" Type="String" Value="LampColour" />
+        <Property Name="ULClass" Type="String" Value="lib-icons LampColour" />
+        <PartItem Name="LP_Snowball3">
+          <Property Name="MultiExtends" Type="Array">
+            <Value>Generic_Part</Value>
+            <Value>CeilingLamp</Value>
+          </Property>
+          <Property Name="Alias" Type="String" Value="UIRESOURCE:Snowball" />
+          <Property Name="Size" Type="Size3" Value="40.1 70.9 40.1" />
+          <Property Name="LibraryImage" Type="String" Value="/libraries/sismodules/image/LP_snowball.png" />
+          <Property Name="Template" Type="String" Value="LP_Snowball" />
+          <SlotGroup Name="MaterialSlots">
+            <Property Name="Type" Type="String" Value="Undefined" />
+            <Slot Name="metal_chromeMAT">
+              <Property Name="MaterialName" Type="String" Value="metal_chromeMAT" />
+            </Slot>
+            <Slot Name="snowball_plastic_whiteMAT">
+              <Property Name="MaterialName" Type="String" Value="snowball_plastic_whiteMAT" />
+            </Slot>
+          </SlotGroup>
+        </PartItem>
+        <PartItem Name="LP_Snowball3_1">
+          <Property Name="MultiExtends" Type="Array">
+            <Value>Generic_Part</Value>
+            <Value>CeilingLamp</Value>
+          </Property>
+          <Property Name="Alias" Type="String" Value="UIRESOURCE:Snowball" />
+          <Property Name="Size" Type="Size3" Value="40.1 70.9 40.1" />
+          <Property Name="LibraryImage" Type="String" Value="/libraries/sismodules/image/LP_snowball.png" />
+          <Property Name="Template" Type="String" Value="LP_Snowball" />
+          <SlotGroup Name="MaterialSlots">
+            <Property Name="Type" Type="String" Value="Undefined" />
+            <Slot Name="metal_chromeMAT">
+              <Property Name="MaterialName" Type="String" Value="metal_chromeMAT" />
+            </Slot>
+            <Slot Name="snowball_plastic_whiteMAT">
+              <Property Name="MaterialName" Type="String" Value="snowball_plastic_whiteMAT" />
+            </Slot>
+          </SlotGroup>
+        </PartItem>
+        <PartItem Name="LP_Snowball3_2">
+          <Property Name="MultiExtends" Type="Array">
+            <Value>Generic_Part</Value>
+            <Value>CeilingLamp</Value>
+          </Property>
+          <Property Name="Alias" Type="String" Value="UIRESOURCE:Snowball" />
+          <Property Name="Size" Type="Size3" Value="40.1 70.9 40.1" />
+          <Property Name="LibraryImage" Type="String" Value="/libraries/sismodules/image/LP_snowball.png" />
+          <Property Name="Template" Type="String" Value="LP_Snowball" />
+          <SlotGroup Name="MaterialSlots">
+            <Property Name="Type" Type="String" Value="Undefined" />
+            <Slot Name="metal_chromeMAT">
+              <Property Name="MaterialName" Type="String" Value="metal_chromeMAT" />
+            </Slot>
+            <Slot Name="snowball_plastic_whiteMAT">
+              <Property Name="MaterialName" Type="String" Value="snowball_plastic_whiteMAT" />
+            </Slot>
+          </SlotGroup>
+        </PartItem>
+      </Category>
+    </Category>
+  </Category>
+</Category>
